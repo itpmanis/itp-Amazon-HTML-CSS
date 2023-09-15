@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  /* border box le k garxa vandaka hamro content ko height and width vanda bihra ko space na le vitrai border li rakxa teti space mai. */
+  border: border-box;
+}
+
+.navBar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  margin-left: 1px;
+  height: 50px;
+  width: 113px;
+}
+.logo {
+  background-image: url("../assets/amazon_logo.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.border {
+  /* transparent vanna le jun hamro background ko color xa tye linxa */
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+/* address */
+.address1 {
+  color: #ccc;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.address2 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.nav-delivery-address2 {
+  display: flex;
+  align-items: center;
+}
+
+.loc-icon {
+  width: 15px;
+  height: 18px;
+  /* margin-top: 8px; */
+}
+.nav-delivery-address {
+  border: 1px solid transparent;
+}
+.nav-delivery-address:hover {
+  border: 1px solid white;
+}
+
+/* search section */
+.search-section {
+  display: flex;
+  align-items: center;
+}
+.search-select {
+  width: 52px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border: none;
+  border-right: 1px solid grey;
+  border-radius: 6px 0px 0px 6px;
+}
+.search-section:hover {
+  border: 2px solid orange;
+  border-radius: 7px;
+  width: 444px;
+}
+.search-box {
+  width: 340px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border: none;
+}
+.search-box:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: transparent; /* Set border color to transparent */
+}
+.search-icon {
+  width: 52px;
+  height: 40px;
+  background-color: #febd68;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 6px 6px 0px;
+}
+
+/* sign in  */
+.upper-text {
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+}
+.lower-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+}
+/* cart */
+.cart {
+  width: 59px;
+  height: 50px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+}
+
+
+/* panal */
+.panal{
+    height: 40px;
+    width: 100vw;
+    background-color: #222F3E;
+    display: flex;
+    align-items: center;
+}
+.panal-1{
+    width: 5vw;
+    color: white;
+    padding-left: 10px;
+}
+.panal2{
+    width: 80vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 0 6px 0;
+    padding: 8px 9px;
+    font-size: 14px;
+}
+
+.panel3 {
+    /* display: inline-block; */
+    color: white;
+    font-size: 14px;
+    width: 15vw;
+}
+
+
+
+/* hero section */
+.hero-section{
+    background-image: url("../assets/hero_image.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-message{
+    width:90vw;
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* shop section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #A2BABA;
+
+}
+
+.shop-box{
+    width: 20%;
+    height: 380px;
+    background-color: white;
+    padding: 20px;
+}
+.shop-box-heading{
+    font-weight: 700;
+    font-size: 21px!important;
+    line-height: 27.3px!important;
+    max-height: 54.6px;
+}
+.shop-box-image{
+    height:300px ;
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.see-more{
+    white-space: nowrap;
+    color: #007185;
+}
+
+/* footer */
+.back{
+    height: 50px;
+    width: 100%;
+    background-color: #71767b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-panel{
+    height: 400px;
+    background-color: #222F3E;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+ul a{
+    display: flex;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: #222F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
